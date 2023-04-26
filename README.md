@@ -7,6 +7,6 @@ Contains the results of the paper titled "Quantum Implementation of ASCON Linear
 M = load("Ascon.sobj")
 ```
 
-[gj.txt](./gj.txt) contains the implementation from the Gauss-Jordan elimination.
-[plu.txt](./plu.txt) contains the implementation from the PLU factorization.
-[xzlbz.txt](./xzlbz.txt) contains the implementation from the modified XZLBZ algorithm.
+- [gj.txt](./gj.txt) contains the implementation from the Gauss-Jordan elimination.
+- [plu.txt](./plu.txt) contains the implementation from the PLU factorization.
+- [xzlbz.txt](./xzlbz.txt) contains the implementation from the modified XZLBZ algorithm.
