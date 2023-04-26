@@ -6,7 +6,7 @@ This [repository](https://github.com/sohamroy19/ascon-linear-layer) contains the
 ## Files
 
 ### Matrix 
-- [`Ascon.py`](./matrix/Ascon.py) contains the definition of the linear layer as a tuple of - tuples.  
+- [`Ascon.py`](./matrix/Ascon.py) contains the specification of the linear layer as tuple of tuples data structure.
 - [`Ascon.sobj`](./matrix/Ascon.sobj) is the same matrix stored in [Sage](https://www.sagemath.org/)'s internal format for efficiency, and can be loaded as:
  `M = load("Ascon.sobj")`.
 
@@ -14,5 +14,5 @@ This [repository](https://github.com/sohamroy19/ascon-linear-layer) contains the
 *The first line indicates the variable relabel (can be implemented through SWAP operations).*
 - [`gj.txt`](./implementations/gj.txt) contains the implementation from the Gauss-Jordan elimination.
 - [`plu.txt`](./implementations/plu.txt) contains the implementation from the PLU factorization.
-- [`xzlbz.txt`](./implementations/xzlbz.txt) contains the implementation from the modified XZLBZ algorithm.
+- [`xzlbz.txt`](./implementations/xzlbz.txt) contains the implementation from modified [XZLBZ](https://github.com/xiangzejun/Optimizing_Implementations_of_Linear_Layers/).
 
