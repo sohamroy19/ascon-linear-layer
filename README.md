@@ -1,7 +1,8 @@
 # ascon-linear-layer
-This [repository](https://github.com/sohamroy19/ascon-linear-layer) contains the results of the paper titled "Quantum Implementation of ASCON Linear Layer".
+This [repository](https://github.com/sohamroy19/ascon-linear-layer) contains the results/codes on the paper, "Quantum Implementation of ASCON Linear Layer".
 
 <img src="./ASCON.png" width="320" title="yellow:0, blue:1"/>
+
 
 ## Files
 
