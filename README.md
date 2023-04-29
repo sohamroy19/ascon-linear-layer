@@ -8,8 +8,8 @@ This [repository](https://github.com/sohamroy19/ascon-linear-layer) contains the
 
 ### Matrix 
 - [Ascon.py](./matrix/Ascon.py) contains the specification of the linear layer (which is a 320 × 320 binary matrix) as tuple of tuples data structure.
-- [Ascon.sobj](./matrix/Ascon.sobj) is the matrix stored in [Sage](https://www.sagemath.org/)'s internal format for efficiency, and can be loaded as:
- `M = load("Ascon.sobj")`.
+- [Ascon.sobj](./matrix/Ascon.sobj) is the matrix stored in [Sage](https://www.sagemath.org/)'s internal format for efficiency (it can be loaded as:
+ `M = load("Ascon.sobj")`).
 
 ### Implementations
 - Naïve
@@ -22,5 +22,5 @@ This [repository](https://github.com/sohamroy19/ascon-linear-layer) contains the
 
 ## Note
 1. In all the implementations, the dummy variable `x` is used with its index starting at `0`. The qubits are denoted as `x[0]`, `x[1]` and so on.
-2. The first line for the in-place implementations indicates the relabel of qubits. It can be realized through a series of SWAP gates.
-3. In the naïve quantum implementation, the 320 ancilla qubits are used (denoted as `x[320]`, ..., `x[639]`).
+2. The first line for the in-place implementations indicates the relabel of qubits. It can be realized through a series of SWAP gates. 
+3. In the naïve quantum implementation, the 320 ancilla qubits are denoted as `x[320]`, ..., `x[639]`.
