@@ -12,10 +12,15 @@ This [repository](https://github.com/sohamroy19/ascon-linear-layer) contains the
  `M = load("Ascon.sobj")`.
 
 ### Implementations
-- Naive Quantum
-    - [naive.txt](./implementations/naive.txt) contains the naive implementation that uses 320 ancillary qubits initialized to 0 appended to the first 320 qubits.
+- Naïve Quantum
+    - [naive.txt](./implementations/naive.txt) contains the naïve quantum implementation (that uses 320 ancilla qubits).
 
-- In-place *(The first line indicates the relabel of qubits and it can be implemented through a series of SWAP gates)*
+- In-place 
      - [gj.txt](./implementations/gj.txt) contains the implementation from the Gauss-Jordan elimination.
      - [plu.txt](./implementations/plu.txt) contains the implementation from the PLU factorization.
      - [xzlbz.txt](./implementations/xzlbz.txt) contains the implementation from modified [XZLBZ](https://github.com/xiangzejun/Optimizing_Implementations_of_Linear_Layers/).
+
+## Note
+1. In all the implementations, the dummy variable `x` is used with its index starting at 0. The qubits are denoted as `x[0]`, `x[1]` and so on.
+2. The first line for the in-place implementations indicates the relabel of qubits. It can be realized through a series of SWAP gates.
+3. In the naïve quantum implementation, the 320 ancilla qubits are used (denoted as `x[320]`, ..., `x[639]`). Those are initialized at $\ket{0}$, then the original qubits are copied.
