@@ -1,5 +1,5 @@
 # ascon-linear-layer
-This [repository](https://github.com/sohamroy19/ascon-linear-layer) contains the results/codes on the paper, **Quantum Implementation of ASCON Linear Layer** [[eprint](https://eprint.iacr.org/2023/617)].
+This [repository](https://github.com/sohamroy19/ascon-linear-layer) contains the results/codes on the paper, **Quantum Implementation of ASCON Linear Layer** [[eprint](https://eprint.iacr.org/2023/617) and [NIST LWC Workshop 2023](https://csrc.nist.gov/csrc/media/Events/2023/lightweight-cryptography-workshop-2023/documents/accepted-papers/06-quantum-implementation-ascon-linear-layer.pdf)].
 
 <img src="./ASCON.png" width="320" title="yellow:0, blue:1"/>
 
